@@ -1,0 +1,10 @@
+#body{
+  background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    background-image: url(../imagenes/samurai.jpg);
+  }
+  #texto{
+    padding:20% ;
+    text-align: center;
+  }

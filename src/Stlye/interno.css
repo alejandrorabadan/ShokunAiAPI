@@ -1,0 +1,115 @@
+body {
+
+    margin: 0;
+    padding: 0;
+
+  }
+.container{
+  padding-top: 5%;
+}
+  #menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+
+  #logo {
+    flex: 1;
+    padding-left: 20px;
+  }
+
+  #logo img {
+    max-width: 100px;
+    height: auto;
+  }
+
+  #opciones {
+    flex: 2;
+    text-align: center;
+  }
+
+  #opciones ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #opciones ul li {
+    padding: 10px;
+  }
+
+  #opciones ul .desplegable:hover ul {
+    display: block;
+  }
+
+  #opciones ul .desplegable ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    border: 1px solid #444;
+    padding: 0;
+  }
+
+  #opciones ul .desplegable ul li {
+    width: 200px;
+    padding: 10px;
+  }
+
+  #imagen {
+    flex: 1;
+    text-align: right;
+    padding-right: 20px;
+  }
+
+  #imagen img {
+    max-width: 100px;
+    height: auto;
+  }
+  
+
+  a{
+    text-decoration: none;
+  }
+  
+  .num{
+    width: 55px;
+  }
+  .vista{
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px black solid; 
+    height: 200px;
+  }
+
+  .button{
+    font-weight: 500;
+    background: none;
+    border: none;
+  }
+
+  .col-sm{
+    margin: 0.5%;
+    border: 1px solid black;
+  }
+
+  h3{
+    text-align: center;
+  }
+  small{
+    opacity: 80%;
+  }
+  .enviar{
+    float:right;
+    margin-bottom: 5%;
+  }
+  .escribir{
+    float: left;
+    padding:5%;
+    width: 75%;
+
+    align-items: center;
+  }
